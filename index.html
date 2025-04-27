@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Snare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Scam Snare</h1>
+        <p>Detect scams on WhatsApp, YouTube, and more!</p>
+    </header>
+
+    <main>
+        <h4>Paste your Link here:</h4>
+        <form id="scamForm">
+            <input type="text" id="inputText" placeholder="Paste text or link here..." required>
+            <button type="submit">Analyze</button>
+            <h4>Or upload an Image/Video:</h4>
+            <input type="file" id="inputFile" accept="image/*,video/*">
+            <button type="submit">Analyze</button>
+           
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
